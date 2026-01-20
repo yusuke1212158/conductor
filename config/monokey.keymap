@@ -75,10 +75,10 @@
 
         ARROW {
             bindings = <
-&kp C_AC_ZOOM_OUT  &kp C_AC_ZOOM_IN  &kp LG(TAB)  &kp LG(LS(C))  &kp LS(LC(NUMBER_3))            &kp LG(W)             &kp LG(T)              &kp UP_ARROW    &kp LC(LS(TAB))  &kp LC(TAB)
-&trans             &trans            &trans       &trans         &trans                          &kp RG(R)             &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(F)
-&trans             &trans            &trans       &trans         &trans                          &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans          &kp RG(A)        &kp RG(SPACE)
-&trans             &trans            &trans       &trans         &trans                &trans    &trans                &trans                                 &kp C_BRI_DEC    &kp C_BRI_INC
+&kp LG(MINUS)  &kp LG(PLUS)  &kp LG(TAB)  &kp LG(LS(C))  &kp LS(LC(NUMBER_3))            &kp LG(W)             &kp LG(T)              &kp UP_ARROW    &kp LC(LS(TAB))  &kp LC(TAB)
+&trans         &trans        &trans       &trans         &trans                          &kp RG(R)             &kp LEFT_ARROW         &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(F)
+&trans         &trans        &trans       &trans         &trans                          &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &trans          &kp RG(A)        &kp RG(SPACE)
+&trans         &trans        &trans       &trans         &trans                &trans    &trans                &trans                                 &kp C_BRI_DEC    &kp C_BRI_INC
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
