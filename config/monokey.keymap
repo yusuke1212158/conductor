@@ -41,18 +41,6 @@
         };
     };
 
-    macros {
-        kakko: kakko {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_ARROW>,
-                <&macro_press>;
-
-            label = "KAKKO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
