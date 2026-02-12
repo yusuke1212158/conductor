@@ -10,5 +10,3 @@
             , <&gpio0 9 GPIO_ACTIVE_HIGH>
             ;
 };
-
-#include <behaviors/battery_history_request.dtsi>
